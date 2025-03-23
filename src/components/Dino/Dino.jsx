@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Dino.css";
 
-function Dino() {
+export default function Dino() {
   const dinoRef = useRef();
   const cactusRef = useRef();
   const [score, setScore] = useState(0);
@@ -19,12 +19,14 @@ function Dino() {
     const isAlive = setInterval(function () {
       // get current dino Y position
       const dinoTop = parseInt(
-        !!dinoRef.current && getComputedStyle(dinoRef.current).getPropertyValue("top")
+        !!dinoRef.current &&
+          getComputedStyle(dinoRef.current).getPropertyValue("top")
       );
 
       // get current cactus X position
       let cactusLeft = parseInt(
-        !!cactusRef.current && getComputedStyle(cactusRef.current).getPropertyValue("left")
+        !!cactusRef.current &&
+          getComputedStyle(cactusRef.current).getPropertyValue("left")
       );
 
       // detect collision
@@ -34,7 +36,7 @@ function Dino() {
       } else {
         setScore(score + 1);
       }
-    }, 10);
+    }, 20);
 
     return () => clearInterval(isAlive);
   });
@@ -45,9 +47,13 @@ function Dino() {
   }, []);
 
   return (
-    <div className="game">
-      Score : {score}
-      <div id="dino" ref={dinoRef} className="inline-block p-3 rounded-lg bg-neutral-700 text-white rounded-tl-none">
+    <div className="game scrollbar-hide relative">
+      <p className="absolute top-0 left-0">Score : {score}</p>
+      <div
+        id="dino"
+        ref={dinoRef}
+        className="inline-block p-3 rounded-lg bg-neutral-700 text-white rounded-tl-none"
+      >
         <div className="flex gap-1">
           <div className="w-2 h-2 rounded-full bg-white animate-bounce"></div>
           <div
@@ -64,5 +70,3 @@ function Dino() {
     </div>
   );
 }
-
-export default Dino;

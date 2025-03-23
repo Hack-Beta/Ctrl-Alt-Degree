@@ -6,6 +6,10 @@ import hashlib
 import functools
 from datetime import datetime
 
+import subprocess
+import os
+from ocr_search import ocr_pdf, CourseAnalyzer
+
 from ai import LocalLLM, my_api_key, process_prompt
 
 app = Flask(__name__)
@@ -289,6 +293,78 @@ def promptLLM():
     
     # Return the response
     return jsonify(result)
+
+# Route to handle file uploading and AI processing of the uploaded PDF, first through ocr in the ocr_search.py file and then take that txt output and put that through the AI model
+@app.route('/api/upload', methods=['GET'])
+def upload():
+    # Define file paths
+    pdf_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'OfficialTranscript.pdf')
+    txt_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'OfficialTranscript.txt')
+    requirements_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'json', 'requirementsDB.json')
+    
+    # No need to handle the uploaded file - just use the local file
+    # The upload from the frontend is just for show
+    print(f"[INFO] Using local PDF file: {pdf_path}")
+    
+    # Check if requirements file exists
+    if not os.path.exists(requirements_path):
+        requirements_path = None
+    
+    try:
+        # 1. Run OCR using bash command
+        cmd = f"python3 ocr_search.py -i {pdf_path} -o {txt_path}"
+        print(f"[INFO] Running command: {cmd}")
+        process = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+        
+        if process.returncode != 0:
+            print(f"[ERROR] OCR process failed: {process.stderr}")
+            return jsonify({
+                'success': False,
+                'error': f"OCR process failed: {process.stderr}"
+            }), 500
+        
+        # 2. Read the output text file
+        with open(txt_path, 'r', encoding='utf-8') as f:
+            transcript_text = f.read()
+        
+        # 3. Analyze the extracted text 
+        analyzer = CourseAnalyzer(requirements_json=requirements_path)
+        completed_courses = analyzer.extract_courses_from_text(transcript_text)
+        
+        # 4. Get GPA information
+        gpa_info = analyzer.extract_gpa(transcript_text)
+        
+        # 5. Process the transcript through the AI model
+        ai_prompt = f"""
+        I'm analyzing a student transcript. Here's what I found:
+        
+        Courses completed: {', '.join(completed_courses)}
+        
+        GPA information: {gpa_info}
+        
+        Based on this information, provide a summary of the student's academic progress, 
+        recommendations for future courses, and insights about their academic path.
+        """
+        
+        ai_result = process_prompt(ai_prompt)
+        
+        # 6. Return combined results
+        return jsonify({
+            'success': True,
+            'ocr_results': {
+                'courses': list(completed_courses),
+                'gpa_info': gpa_info
+            },
+            'ai_analysis': ai_result,
+            'transcript_text': transcript_text[:500] + "..." if len(transcript_text) > 500 else transcript_text
+        })
+        
+    except Exception as e:
+        print(f"Error processing transcript: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

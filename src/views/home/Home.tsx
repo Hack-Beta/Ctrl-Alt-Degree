@@ -1,4 +1,4 @@
-import { FileUp, NotebookPen } from "lucide-react";
+import { FileUp, NotebookPen, Loader } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,6 +8,9 @@ export default function Home() {
   const { user } = useAuth();
   const [isStaggerComplete, setIsStaggerComplete] = useState(false);
   const [showCards, setShowCards] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [results, setResults] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     if (isStaggerComplete) {
@@ -84,6 +87,29 @@ export default function Home() {
     },
   };
 
+  const handleUpload = async () => {
+    setIsProcessing(true);
+    setError(null);
+    setResults(null);
+
+    try {
+      const response = await fetch("http://localhost:5000/api/upload");
+      const data = await response.json();
+
+      if (data.success) {
+        setResults(data);
+        console.log("OCR Results:", data);
+      } else {
+        setError(data.error || "Failed to process transcript");
+      }
+    } catch (err) {
+      console.error("Error calling API:", err);
+      setError("Error connecting to server. Please try again.");
+    } finally {
+      setIsProcessing(false);
+    }
+  };
+
   return (
     <AnimatePresence>
       <motion.div
@@ -115,6 +141,37 @@ export default function Home() {
             Make Your Transcript to Get Started!
           </motion.h1>
 
+          {results && (
+            <motion.div
+              className="bg-neutral-800 p-4 rounded-lg max-w-2xl text-left"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+            >
+              <h3 className="text-xl font-medium mb-2">Analysis Results</h3>
+              <p className="text-green-400 mb-2">
+                ✓ Successfully processed transcript
+              </p>
+              <p className="mb-2">
+                Found {results.ocr_results.courses.length} courses
+              </p>
+              <div className="bg-neutral-700 p-3 rounded mt-3">
+                <p className="font-medium">AI Analysis:</p>
+                <p className="text-neutral-300">{results.ai_analysis}</p>
+              </div>
+            </motion.div>
+          )}
+
+          {error && (
+            <motion.div
+              className="bg-red-900/50 text-white p-4 rounded-lg max-w-xl text-left"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+            >
+              <h3 className="text-xl font-medium mb-2">Error</h3>
+              <p>{error}</p>
+            </motion.div>
+          )}
+
           <motion.div
             className="flex gap-16 justify-center text-xl mb-3"
             variants={cardsContainerVariants}
@@ -127,9 +184,14 @@ export default function Home() {
               whileHover="hover"
               initial="initial"
               style={{ transition: "none" }}
+              onClick={handleUpload}
             >
-              <FileUp size={42} />
-              <p>File Upload</p>
+              {isProcessing ? (
+                <Loader size={42} className="animate-spin" />
+              ) : (
+                <FileUp size={42} />
+              )}
+              <p>{isProcessing ? "Processing..." : "File Upload"}</p>
             </motion.div>
 
             <motion.div

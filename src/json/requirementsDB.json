@@ -1,0 +1,164 @@
+{
+    "General Education": {
+      "English": {
+        "courses": ["ENGL 101", "ENGL 102"],
+        "choices": {
+        "First Year Writing I": [
+            1,
+            "Hon 101",
+            "Writ 100",
+            "Writ 101"
+        ],
+        "First Year Writing II": [
+            1,
+            "Liba 102",
+            "Writ 102",
+            "Hon 102"
+        ],
+        "Literature Survey": [
+            1,
+            "Engl 220",
+            "Engl 221",
+            "Engl 222",
+            "Engl 223",
+            "Engl 224",
+            "Engl 225",
+            "Engl 226"
+          ],
+          "Speech": [
+            1, 
+            "Spch 101", 
+            "Spch 102",
+            ""
+        ],
+        "Social Science": [
+            2,
+            "Econ 101",
+            "Econ 202",
+            "Econ 203",
+            "Econ 230"
+        ],
+        "Humanities": [
+            1,
+            "Phil 102",
+            "Phil 103",
+            "Phil 104",
+            "Phil 105"
+        ],
+        "Fine Arts": [
+            1,
+            "Thea 201",
+            "Thea 202"
+        ],
+        "Languages": [
+            1,
+            "Span 101",
+            "Span 102",
+            "Span 111",
+            "Span 121",
+            "Fr 101",
+            "Fr 121",
+            "Lat 101",
+            "Lat 102",
+            "Lat 111"
+        ]
+        }
+      }
+    },
+    "General Education II": {
+        "Lab Science": [
+      8,
+      "Chem 105", 
+      "Chem 106", 
+      "Chem 115", 
+      "Chem 116",
+      "Phys 211", 
+      "Phys 212", 
+      "Phys 221", 
+      "Phys 222",
+      "Bisc 160", 
+      "Bisc 161", 
+      "Bisc 162", 
+      "Bisc 163"
+    ],
+    "Mathematics": [
+      2,
+      "Math 261",
+      "Math 262"
+    ]
+    
+    },
+    "Major Requirements": {
+      "Computer Science":[
+        31,
+      "Csci 111", 
+      "Csci 112", 
+      "Csci 211", 
+      "Csci 223",
+      "Csci 300", 
+      "Csci 311", 
+      "Csci 387", 
+      "Csci 423",
+      "Csci 433", 
+      "Csci 450", 
+      "Csci 487"
+    ],
+    "Electrical Engineering":[
+      1,
+      "ElE 235 & ElE 236"
+    ],
+    "Mathematics":[
+      4,
+      "Math 263 | Math 319",
+      "Math 301",
+      "Math 302 | Math 401",
+      "Math 375"
+      
+    ]
+
+    },
+    "Major Requirements II": {
+      "Science":[
+        2,
+        "Astro 103",
+        "Astro 104",
+        "Chem 221",
+        "Chem 222",
+        "Geol 101",
+        "Geol 102",
+        "Geol 103",
+        "Geol 104",
+        "Geol 105",
+        "Geol 106",
+        "Geol 107"
+      ]
+    },
+    "Non-minor requirements": {
+        
+    },
+    "Emphasis": {
+      "Data Science": 
+      [3,
+      "Csci 343", 
+      "Csci 443", 
+      "Csci 475"
+      ],
+      "Electives": [
+        2,
+        "Csci 345 | Csci 444 | Csci 492 | Csci 517 | Csci 543"
+      ]
+      },
+      "Computer Security": [
+        4,
+      "Csci 325", 
+      "Csci 361", 
+      "Csci 426", 
+      "Csci 427"
+      ],
+      "Electives": [
+        1,
+        "Csci 323 | Csci 475 | Csci 491 | Csci 523 | Csci 561"
+      ]
+      }
+    
+  

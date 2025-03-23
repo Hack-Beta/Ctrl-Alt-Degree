@@ -1,0 +1,905 @@
+{
+"English": {
+  "courses": [
+    {
+      "course": "Writ 100",
+      "credits": 3,
+      "description": "Prepares students to write in college by focusing on writing as process for a variety of contexts and audiences. Develops information literacy, awareness of conventions, skills of inquiry, exploration, and argumentation. Includes frequent conferencing with instructors and multimodal writing presented in ePortfolios.",
+      "prerequisites": []
+    },
+    {
+      "course": "Writ 101",
+      "credits": 3,
+      "description": "Prepares students to write in college by focusing on writing as process for a variety of contexts and audiences. Develops information literacy, awareness of conventions, skills of inquiry, exploration, and argumentation. Includes mulitmodal writing presented in ePortfolios.",
+      "prerequisites": []
+    },
+    {
+      "course": "Writ 102",
+      "credits": 3,
+      "description": "Writing processes, skills on inquiry, exploration, and argumentation, with special emphasis on research, information literacy, and writing for a variety of contexts and audiences. Includes multimodal writing presented in ePortfolios.",
+      "prerequisites": ["Engl 101 | Hon 101", "Writ 100 | Writ 101"]
+    },
+    {
+      "course": "Liba 102",
+      "credits": 3,
+      "description": "This course is a seminar restricted to first-year students. Topics will vary among sections. Emphasis is placed on the development of students’ writing, oral communication, and critical-thinking skills. Students may receive credit for both Liba 102 and Writ 102.",
+      "prerequisites": ["Engl 101 | Hon 101", "Writ 100 | Writ 101"]
+    },
+    {
+      "course": "Hon 101",
+      "credits": 3,
+      "description": "Honors core course. Equivalent to first-year writing I. Required of honors graduates.",
+      "prerequisites": []
+    },
+    {
+      "course": "Hon 102",
+      "credits": 3,
+      "description": "Honors core course. Equivalent to first-year writing II. Required of honors graduates.",
+      "prerequisites": []
+    },
+    {
+      "course": "Engl 221",
+      "credits": 3,
+      "description": "Survey of World Literature to 1650.",
+      "prerequisites": []
+    },
+    {
+      "course": "Engl 222",
+      "credits": 3,
+      "description": "Survey of World Literature since 1650.",
+      "prerequisites": []
+    },
+    {
+      "course": "Engl 223",
+      "credits": 3,
+      "description": "Survey of American Literature to the Civil War.",
+      "prerequisites": []
+    },
+    {
+      "course": "Engl 224",
+      "credits": 3,
+      "description": "Survey of American Literature since the Civil War.",
+      "prerequisites": []
+    },
+    {
+      "course": "Engl 225",
+      "credits": 3,
+      "description": "Survey of British Literature to the 18th Century.",
+      "prerequisites": []
+    },
+    {
+      "course": "Engl 226",
+      "credits": 3,
+      "description": "Survey of British Literature since the Romantic Period.",
+      "prerequisites": []
+    }
+  ]
+},
+"Math": {
+  "courses": [
+    {
+      "course": "Math 261",
+      "credits": 3,
+      "description": "Limits, continuity, and differentiation of functions of one real variable. Includes optimization and antiderivatives.",
+      "prerequisites": []
+    },
+    {
+      "course": "Math 262",
+      "credits": 3,
+      "description": "Definite and indefinite integrals, volumes, arc length, and improper integrals.",
+      "prerequisites": ["Math 261"]
+    },
+    {
+      "course": "Math 263",
+      "credits": 3,
+      "description": "Sequences and series, parametric/polar curves, vectors, and vector-valued functions.",
+      "prerequisites": ["Math 262"]
+    },
+    {
+      "course": "Math 267",
+      "credits": 3,
+      "description": "This course covers differential and integral calculus with an emphasis on business applications. The course meets twice weekly, with other work completed online.",
+      "prerequisites": ["Math 262"]
+    },
+    {
+      "course": "Math 301",
+      "credits": 3,
+      "description": "Counting principles, mathematical induction, relations and functions, and graph theory.",
+      "prerequisites": ["Math 261"]
+    },
+    {
+      "course": "Math 302",
+      "credits": 3,
+      "description": "Elementary group theory with applications to modular arithmetic, public key encryption, Polya enumeration, and coding theory.",
+      "prerequisites": ["Math 301 | Math 305"]
+    },
+    {
+      "course": "Math 375",
+      "credits": 3,
+      "description": "Basic concepts and methods of statistics, including descriptive statistics, probability, distributions, sampling, confidence intervals, hypothesis testing, and linear regression.",
+      "prerequisites": ["Math 261"]
+    },
+    {
+      "course": "Math 401",
+      "credits": 3,
+      "description": "Explores counting methods, Ramsey theory, combinatorial designs, graph theory, matroid theory, and other advanced combinatorics topics.",
+      "prerequisites": ["Math 301"]
+    },
+    {
+      "course": "Math 319",
+      "credits": 3,
+      "description": "Linear algebra covering vectors, matrices, determinants, linear transformations, and vector spaces.",
+      "prerequisites": ["Math 262"]
+    }
+  ]
+},
+"Physics": {
+  "courses": [
+    {
+      "course": "Phys 211",
+      "credits": 3,
+      "description": "This course is the first part of a two-semester calculus-based treatment of introductory physics. Topics include Newtonian mechanics, energy, rotational motion, fluids, oscillations and waves. Of the courses Phys 107, Phys 211, and Phys 213, only one can be counted toward a degree.",
+      "prerequisites": [],
+      "corequisites":[]
+    },
+    {
+      "course": "Phys 212",
+      "credits": 3,
+      "description": "This course is the second part of a two-semester calculus-based treatment of introductory physics. Topics include electricity, magnetism, electromagnetic waves and optics. Of the courses Phys 108, Phys 212, and Phys 214, only one can be counted toward a degree.",
+      "prerequisites": ["Phys 211"]
+    },
+    {
+      "course": "Phys 221",
+      "credits": 1,
+      "description": "Laboratory experiments coordinated with lecture topics in Phys 211.",
+      "prerequisites": []
+    },
+    {
+      "course": "Phys 222",
+      "credits": 1,
+      "description": "Laboratory experiments coordinated with lecture topics in Phys 212.",
+      "prerequisites": []
+    }
+  ]
+},
+"Chemistry": {
+  "courses": [
+    {
+      "course": "Chem 105",
+      "credits": 3,
+      "description": "This course covers atomic and molecular structure, stoichiometry, solutions, physical properties of gases, liquids, and solids, chemical bonding, kinetics, thermodynamics and equilibrium, acid-base chemistry and the descriptive chemistry of the elements.",
+      "prerequisites": []
+    },
+    {
+      "course": "Chem 106",
+      "credits": 3,
+      "description": "Continuation of Chem 105.",
+      "prerequisites": ["Chem 105"]
+    },
+    {
+      "course": "Chem 115",
+      "credits": 1,
+      "description": "General Chemistry Laboratory I.",
+      "prerequisites": []
+    },
+    {
+      "course": "Chem 116",
+      "credits": 1,
+      "description": "General Chemistry Laboratory II.",
+      "prerequisites": []
+    },
+    {
+      "course": "Chem 221",
+      "credits": 3,
+      "description": "Upper-level Chemistry course option.",
+      "prerequisites": []
+    },
+    {
+      "course": "Chem 222",
+      "credits": 3,
+      "description": "Upper-level Chemistry lab option.",
+      "prerequisites": []
+    }
+  ]
+},
+"Biology": {
+  "courses": [
+    {
+      "course": "Bisc 160",
+      "credits": 3,
+      "description": "Biology I: cells, genetics, and evolution. For majors and pre-professional students.",
+      "prerequisites": []
+    },
+    {
+      "course": "Bisc 161",
+      "credits": 1,
+      "description": "Lab for Biology I.",
+      "prerequisites": []
+    },
+    {
+      "course": "Bisc 162",
+      "credits": 3,
+      "description": "Biology II: development, anatomy, ecology, biodiversity.",
+      "prerequisites": []
+    },
+    {
+      "course": "Bisc 163",
+      "credits": 1,
+      "description": "Lab for Biology II.",
+      "prerequisites": []
+    },
+    {
+      "course": "Upper-Level Biology Placeholder",
+      "credits": 3,
+      "description": "Placeholder for 300-level or above biology elective.",
+      "prerequisites": []
+    }
+  ]
+},
+"Geology": {
+  "courses": [
+    {
+      "course": "Geol 101",
+      "credits": 3,
+      "description": "Geology course option 1.",
+      "prerequisites": []
+    },
+    {
+      "course": "Geol 102",
+      "credits": 3,
+      "description": "Geology course option 2.",
+      "prerequisites": []
+    },
+    {
+      "course": "Geol 103",
+      "credits": 3,
+      "description": "Geology course option 3.",
+      "prerequisites": []
+    },
+    {
+      "course": "Geol 104",
+      "credits": 3,
+      "description": "Geology course option 4.",
+      "prerequisites": []
+    },
+    {
+      "course": "Geol 105",
+      "credits": 3,
+      "description": "Geology course option 5.",
+      "prerequisites": []
+    },
+    {
+      "course": "Geol 107",
+      "credits": 3,
+      "description": "Geology course option 6.",
+      "prerequisites": []
+    },
+    {
+      "course": "Geol 120",
+      "credits": 3,
+      "description": "Geology course option 7.",
+      "prerequisites": []
+    },
+    {
+      "course": "Upper-Level Geology Placeholder",
+      "credits": 3,
+      "description": "Placeholder for 300-level or above geology elective.",
+      "prerequisites": []
+    }
+  ]
+},
+"Astronomy": {
+  "courses": [
+    {
+      "course": "Astr 103",
+      "credits": 3,
+      "description": "Astronomy course option.",
+      "prerequisites": []
+    },
+    {
+      "course": "Astr 104",
+      "credits": 3,
+      "description": "Astronomy laboratory or lecture option.",
+      "prerequisites": []
+    }
+  ]
+},
+"Speech": {
+  "courses": [
+    {
+      "course": "Spch 102",
+      "credits": 3,
+      "description": "Fundamentals of organizing, preparing, and delivering speeches in a variety of public forums.",
+      "prerequisites": []
+    },
+    {
+      "course": "Spch 105",
+      "credits": 3,
+      "description": "Students in this course prepare the speech outline and give frequent performances in business situations requiring effective communicative practices.",
+      "prerequisites": []
+    }
+  ]
+},
+"SocialSciences": {
+  "courses": [
+    {
+      "course": "Social Science Option A",
+      "credits": 3,
+      "description": "Example social science course option (e.g., anthropology, economics, political science, psychology, or sociology).",
+      "prerequisites": []
+    },
+    {
+      "course": "Social Science Option B",
+      "credits": 3,
+      "description": "Another social science course option from the approved categories.",
+      "prerequisites": []
+    }
+  ]
+},
+"Humanities": {
+  "courses": [
+    {
+      "course": "Humanities Option A",
+      "credits": 3,
+      "description": "Example humanities course option. May include courses from classics, English, history, modern languages, philosophy, religion, African American studies, gender studies, or southern studies.",
+      "prerequisites": []
+    }
+  ]
+},
+"FineArts": {
+  "courses": [
+    {
+      "course": "Fine Arts Option A",
+      "credits": 3,
+      import openai
+      from dotenv import load_dotenv
+      import os
+      import json
+      
+      load_dotenv()  # Loads the .env file into environment variables
+      my_api_key = os.getenv("KEY")  # Retrieves the KEY variable
+      
+      class local:
+          def __init__(self, host_ip, port_num, api_key_str):
+              self.client = openai.Client(base_url=f"http://{host_ip}:{port_num}/v1", api_key=api_key_str)
+              self.model_name = self.client.models.list().data[0].id
+      
+              self.history = []
+              print("Model loaded:", self.model_name)
+      
+          def append_to_history(self, role: str, data: str):
+              self.history.append({
+                  "role": role,
+                  "content": data
+              })
+      
+          def get_response(self, message):
+              self.append_to_history("user", message)
+      
+              response_stream = self.client.chat.completions.create(
+                  model=self.model_name,
+                  messages=self.history,
+                  temperature=0.2,
+                  top_p=0.95,
+                  stream=True,
+              )
+      
+              reasoning = ""
+              answer = ""
+              hasContentStarted = False
+              hasReasonStarted = False
+      
+              for chunk in response_stream:
+                  if chunk.choices[0].delta.content:
+                      if not hasContentStarted:
+                          hasContentStarted = True
+                          print("\n~~~ END OF REASONING ~~~")
+                          print("\n~~~ BEGINNING OF ANSWER ~~~")
+                      print(chunk.choices[0].delta.content, end="")
+                      answer += chunk.choices[0].delta.content
+                  elif chunk.choices[0].delta.reasoning_content:
+                      if not hasReasonStarted:
+                          hasReasonStarted = True
+                          print("\n~~~ BEGINNING OF REASONING ~~~")
+                      print(chunk.choices[0].delta.reasoning_content, end="")
+                      reasoning += chunk.choices[0].delta.reasoning_content
+              print("\n~~~ END OF ANSWER ~~~")
+              return answer, reasoning
+      
+      def save_history(history, filename="conversation_history.json"):
+          with open(filename, "w") as f:
+              json.dump(history, f, indent=2)
+      
+      def load_history(filename="conversation_history.json"):
+          try:
+              with open(filename, "r") as f:
+                  return json.load(f)
+          except FileNotFoundError:
+              return []
+      
+      # Initialize the local client
+      llm = local("172.30.80.17", 50001, my_api_key)
+      
+      # Set up the system prompt (your advisor prompt)
+      system_prompt = """
+      You are a Virtual Academic Advisor at a university.
+      
+      Your task is to generate a complete 4-year degree plan for a Computer Science major. The plan must consist of 8 semesters (alternating Fall and Spring: Fall 1, Spring 1, Fall 2, Spring 2, Fall 3, Spring 3, Fall 4, Spring 4). Each semester must include between 15 and 18 credit hours, and the overall plan must total at least 127 credit hours.
+      
+      All required courses below must appear exactly once in the final plan. Use only these courses:
+      
+      ────────────────────────────────────────
+      **Required Courses and Credit Hours**
+      
+      1. **Computer Science Core (31 Hours Total)**
+         - Csci 111 (3)
+         - Csci 112 (3)
+         - Csci 211 (3)
+         - Csci 223 (3)
+         - Csci 300 (1)   *(Offered in Fall only)*
+         - Csci 311 (3)
+         - Csci 387 (3)
+         - Csci 423 (3)
+         - Csci 433 (3)
+         - Csci 487 (3)
+      
+      2. **Computer Science Electives (15 Hours Total)**
+         - CSE 101 (3)
+         - CSE 102 (3)
+         - CSE 103 (3)
+         - CSE 104 (3)
+         - CSE 105 (3)
+      
+      3. **Electrical Engineering (4 Hours Total)**
+         - ElE 235 (3) and ElE 236 (1) *(Must be taken in the same semester)*
+      
+      4. **Mathematics (18 Hours Total)**
+         - Math 261 (3)
+         - Math 262 (3)
+         - Math 301 (3)
+         - Math 302 (3)
+         - Math 375 (3)
+         - Math 263 (3)
+      
+      5. **Writing & English (9 Hours Total)**
+         - Writ 101 (3)
+         - Writ 102 (3) or Liba 102 (3) *(Writ 102/Liba 102 must be taken after Writ 101)*
+         - One English course (3) chosen from: Eng 220, Eng 221, Eng 222, Eng 223, Eng 224, Eng 225, or Eng 226
+      
+      6. **Speech (3 Hours Total)**
+         - Spch 102 (3) or Spch 105 (3)
+      
+      7. **Chemistry Sequence (8 Hours Total)**
+         - Chem 105 (3) and Chem 115 (1) *(Corequisites: must be taken together)*
+         - Chem 106 (3) and Chem 116 (1) *(Corequisites: must be taken together)*
+      
+      8. **Science Electives (6 Hours Total)**
+         - SE 101 (3)
+         - SE 102 (3)
+      
+      9. **Minor Courses (18 Hours Total)**
+         - Minor 101 (3)
+         - Minor 102 (3)
+         - Minor 103 (3)
+         - Minor 104 (3)
+         - Minor 105 (3)
+         - Minor 106 (3)
+      
+      10. **Social Sciences (6 Hours Total)**
+          - Social Science 1 (3)
+          - Social Science 2 (3)
+      
+      11. **Humanities (3 Hours Total)**
+          - Hum 101 (3)
+      
+      12. **Fine Arts (3 Hours Total)**
+          - FA 101 (3)
+      
+      13. **General Education (3 Hours Total)**
+          - Gen 101 (3)
+      ────────────────────────────────────────
+      
+      **Overall Total Required Hours: 127**
+      
+      ────────────────────────────────────────
+      **Prerequisite and Corequisite Rules:**
+      
+      - Csci 112 must be taken after Csci 111.
+      - Csci 211 must be taken after Csci 112.
+      - Csci 223 must be taken after Csci 211.
+      - Csci 300 must be taken after Csci 223 (and only offered in Fall).
+      - Csci 311 must be taken after Csci 300.
+      - Csci 387 must be taken after Csci 311.
+      - Csci 423 must be taken after both Csci 211 and Csci 223.
+      - Csci 433 must be taken after Csci 211.
+      - Csci 450 must be taken after Csci 223.
+      - Csci 487 must be taken after Csci 300 (or, if applicable, after its prerequisite as defined).
+      
+      - Math 262 must be taken after Math 261.
+      - Math 263 must be taken after Math 262.
+      - Math 302 must be taken after Math 301.
+      - Math 375 must be taken after Math 261.
+      
+      - Writ 102 (or Liba 102) must be taken after Writ 101.
+      
+      - Chem 105 and Chem 115 must be taken in the same semester.
+      - Chem 106 and Chem 116 must be taken in the same semester.
+      - ElE 235 and ElE 236 must be taken in the same semester.
+      
+      ────────────────────────────────────────
+      **Additional Constraints:**
+      
+      - Each semester must have 15–18 credit hours. Make sure a semester does not exceed 18 credit hours.
+      - The plan must alternate between Fall and Spring semesters (8 total semesters).
+      - Do not duplicate any course.
+      - Only use courses from the provided list.
+      - If all required courses are present, a semester may have lower than 15 credit hours.
+      
+      ────────────────────────────────────────
+      
+      This is a valid example of a 4-year degree plan for a Computer Science major:
+      
+      Fall 1 (16 Hours):
+      - Csci 111 (3)
+      - Math 261 (3)
+      - Chem 105 (3)
+      - Chem 115 (1)
+      - Writ 101 (3)
+      - Social Science 1 (3)
+      Total: 16 Hours
+      
+      ─────────────────────────────
+      Spring 1 (16 Hours):
+      - Csci 112 (3)
+      - Math 262 (3)
+      - Chem 106 (3)
+      - Chem 116 (1)
+      - Writ 102 (3)
+      - Engl 222 (3)
+      Total: 16 Hours
+      
+      ─────────────────────────────
+      Fall 2 (16 Hours):
+      - Csci 211 (3)
+      - Csci 223 (3)
+      - Math 301 (3)
+      - Math 375 (3)
+      - ElE 235 (3)
+      - ElE 236 (1)
+      Total: 16 Hours
+      
+      ─────────────────────────────
+      Spring 2 (15 Hours):
+      - Csci 423 (3)
+      - Csci 433 (3)
+      - Math 302 (3)
+      - Social Science 2 (3)
+      - Minor 102 (3)
+      Total: 15 Hours
+      
+      ─────────────────────────────
+      Fall 3 (15 Hours):
+      - Csci 300 (1)
+      - CSE 101 (3)
+      - Math 263 (3)
+      - Minor 103 (3)
+      - FA 101 (3)
+      - SE 102 (3)
+      Total: 16 Hours
+      ─────────────────────────────
+      Spring 3 (18 Hours):
+      - Csci 311 (3)
+      - Csci 387 (3)
+      - Csci 450 (3)
+      - CSE 103 (3)
+      - Minor 104 (3)
+      - Hum 101 (3)
+      Total: 18 Hours
+      
+      ─────────────────────────────
+      Fall 4 (16 Hours):
+      - Csci 487 (3)
+      - CSE 104 (3)
+      - CSE 105 (3)
+      - Minor 105 (3)
+      - Gen 101 (3)
+      Total: 16 Hours
+      
+      ─────────────────────────────
+      Spring 4 (17 Hours):
+      - CSE 102 (3)
+      - Spch 102 (3)
+      - Minor 101 (3)
+      - Minor 106 (3)
+      - Gen 102 (3)
+      - SE 101 (3)
+      Total: 18 Hours
+      ─────────────────────────────
+      
+      If a user has no classes taken, you should default to using this course schedule. If a user has some classes taken, you should use the classes they have taken and then fill in the rest of the schedule with the remaining classes.
+      """
+      
+      # Append the system prompt
+      llm.append_to_history("system", system_prompt)
+      
+      # Main loop for continuous conversation
+      print("Enter your message below. Type 'exit' or 'quit' to stop.\n")
+      while True:
+          user_input = input("You: ")
+          if user_input.lower().strip() in ["exit", "quit"]:
+              print("Exiting the conversation. Goodbye!")
+              break
+      
+          # Get response from the model
+          answer, reasoning = llm.get_response(user_input)
+      
+          llm.append_to_history("assistant", answer)
+      
+          # Dump the conversation logs after every chat
+          save_history(llm.history)
+      ductory Computer Science.",
+      "prerequisites": []
+    },
+    {
+      "course": "Csci 112",
+      "credits": 3,
+      "description": "Fundamental CS Concepts.",
+      "prerequisites": ["Csci 111"]
+    },
+    {
+      "course": "Csci 211",
+      "credits": 3,
+      "description": "Intermediate Computer Science Topics.",
+      "prerequisites": ["Csci 112"]
+    },
+    {
+      "course": "Csci 223",
+      "credits": 3,
+      "description": "Advanced CS Topics.",
+      "prerequisites": ["Csci 211"]
+    },
+    {
+      "course": "Csci 300",
+      "credits": 3,
+      "description": "Core Foundations in CS.",
+      "prerequisites": ["Csci 223"]
+    },
+    {
+      "course": "Csci 311",
+      "credits": 3,
+      "description": "Applied Computer Science.",
+      "prerequisites": ["Csci 300"]
+    },
+    {
+      "course": "Csci 387",
+      "credits": 3,
+      "description": "Capstone Preparation and Team Project.",
+      "prerequisites": ["Csci 311"]
+    },
+    {
+      "course": "Csci 423",
+      "credits": 3,
+      "description": "Special Topics in CS.",
+      "prerequisites": ["Csci 211", "Csci 223"]
+    },
+    {
+      "course": "Csci 433",
+      "credits": 3,
+      "description": "Elective option in CS.",
+      "prerequisites": ["Csci 211"]
+    },
+    {
+      "course": "Csci 450",
+      "credits": 3,
+      "description": "Preparation for Capstone Project.",
+      "prerequisites": ["Csci 300"]
+    },
+    {
+      "course": "Csci 487",
+      "credits": 3,
+      "description": "Capstone Project Course.",
+      "prerequisites": ["Csci 450"]
+    },
+    {
+      "course": "Csci 325",
+      "credits": 3,
+      "description": "Foundations of Computer Security.",
+      "prerequisites": ["Csci 211", "Csci 223"]
+    },
+    {
+      "course": "Csci 361",
+      "credits": 3,
+      "description": "Introduction to Computer Networks.",
+      "prerequisites": ["Csci 300"]
+    },
+    {
+      "course": "Csci 426",
+      "credits": 3,
+      "description": "System Security.",
+      "prerequisites": ["Csci 300"]
+    },
+    {
+      "course": "Csci 427",
+      "credits": 3,
+      "description": "Network Security.",
+      "prerequisites": ["Csci 300"]
+    },
+    {
+      "course": "Csci 343",
+      "credits": 3,
+      "description": "Fundamentals of Data Science.",
+      "prerequisites": []
+    },
+    {
+      "course": "Csci 443",
+      "credits": 3,
+      "description": "Advanced Data Science.",
+      "prerequisites": ["Csci 300"]
+    },
+    {
+      "course": "Csci 475",
+      "credits": 3,
+      "description": "Introduction to Database Systems.",
+      "prerequisites": ["Csci 300"]
+    }
+  ]
+},
+"ElectricalEngineering": {
+  "courses": [
+    {
+      "course": "ElE 235",
+      "credits": 2,
+      "description": "Introduction to electrical engineering concepts and lab work.",
+      "prerequisites": []
+    },
+    {
+      "course": "ElE 236",
+      "credits": 2,
+      "description": "Continuation of electrical engineering principles and hands-on experimentation.",
+      "prerequisites": []
+      }
+    ]
+  },
+  "Economics": {
+    "courses": [
+      {
+        "course":"Econ 101",
+        "credits": 3,
+        "description": "Primer for students who wish to have basic economic literacy, understand different economic concepts and policies and develop critical thinking skills.",
+        "prerequisites": []
+      },
+      {
+        "course":"Econ 202",
+        "credits": 3,
+        "description": "The nature of economics, economic concepts, and institutions; the role of the price system in directing the production of goods and services; distribution of income; and comparative economic systems.",
+        "prerequisites": ["DS 099"]
+      },
+      {
+        "course":"Econ 203",
+        "credits": 3,
+        "description": "Resources and goals of the economy; national income; unemployment; money and banking; fiscal and monetary policy; contemporary problems; economic growth; and international economics.",
+        "prerequisites": ["Econ 202", "DS 097"]
+      },
+      {
+        "course":"Econ 230",
+        "credits": 3,
+        "description": "Statistical decision making, parameters, probability, sampling, inference, tests, comparative experiments, linear correlation, and time series analysis.",
+        "prerequisites": ["Math 261 | Math 267 | Math 271", "DS 097"]
+      }
+    ]
+  },
+  "Philosophy": {
+    "courses" : [
+      {
+        "course":"Phil 102",
+        "credits": 3,
+        "description":"Students will examine the moral dilemmas professionals face as a consequence of their special training, skills, and work-related duties.",
+        "prerequisites":[]
+      },
+      {
+        "course":"Phil 103",
+        "credits": 3,
+        "description":"Principles and methods of sound reasoning, emphasizing analysis of everyday arguments.",
+        "prerequisites":["DS 097"]
+      },
+      {
+        "course":"Phil 104",
+        "credits": 3,
+        "description":"This course introduces students to major ethical questions in politics and society, examining fundamental arguments on issues such as health care, advertising, pornography, abortion, animal testing, and immigration.",
+        "prerequisites":[]
+      },
+      {
+        "course":"Phil 105",
+        "credits": 3,
+        "description":"This course introduces students to classic philosophical debates through popular fantasy role-playing games.",
+        "prerequisites":[]
+      }
+    ]
+  },
+  "Theater":{
+    "courses":[
+      {
+        "course":"Thea 201",
+        "credits": 3,
+        "description":"Appreciation of the theatre as a performance art; developing perceptive audience standards through demonstrations of the unique characteristics of theatre.",
+        "prerequisites":[]
+      },
+      {
+        "course":"Thea 202",
+        "credits": 3,
+        "description":"This course introduces students to major methods of film analysis and important moments in cinema history, while offering a behind-the-scenes look at how films are made.",
+        "prerequisites":[]
+      }
+    ]
+  },
+  "Languages": {
+  "courses": [
+    {
+      "course": "Span 101",
+      "credits": 3,
+      "description": "Elementary Spanish I",
+      "prerequisites": []
+    },
+    {
+      "course": "Span 102",
+      "credits": 3,
+      "description": "Elementary Spanish II",
+      "prerequisites": ["Span 101"]
+    },
+    {
+      "course": "Span 111",
+      "credits": 6,
+      "description": "Intensive Elementary Spanish",
+      "prerequisites": []
+    },
+    {
+      "course": "Span 121",
+      "credits": 3,
+      "description": "Accelerated Elementary Spanish",
+      "prerequisites": []
+    },
+    {
+      "course": "Fr 101",
+      "credits": 3,
+      "description": "Elementary French I",
+      "prerequisites": []
+    },
+    {
+      "course": "Fr 102",
+      "credits": 3,
+      "description": "Elementary French II",
+      "prerequisites": ["Fr 101"]
+    },
+    {
+      "course": "Fr 111",
+      "credits": 6,
+      "description": "Intensive Elementary French",
+      "prerequisites": []
+    },
+    {
+      "course": "Fr 121",
+      "credits": 3,
+      "description": "Accelerated Elementary French",
+      "prerequisites": []
+    },
+    {
+      "course": "Lat 101",
+      "credits": 3,
+      "description": "Elementary Latin I",
+      "prerequisites": []
+    },
+    {
+      "course": "Lat 102",
+      "credits": 3,
+      "description": "Elementary Latin II",
+      "prerequisites": ["Lat 101"]
+    },
+    {
+      "course": "Lat 111",
+      "credits": 6,
+      "description": "Intensive Elementary Latin",
+      "prerequisites": []
+    }
+  ]
+}
+}

@@ -8,7 +8,7 @@ import remarkGfm from "remark-gfm";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
-import DinoLoader from "../../components/Dino/Dino";
+import DinoLoader from "../../components/Dino/Dino.jsx";
 
 interface CodeProps {
   node?: any;
@@ -19,23 +19,23 @@ interface CodeProps {
 
 const NonDinoLoader: React.FC = () => {
   return (
-  <div className="text-left mb-4">
-    <div className="inline-block p-3 rounded-lg bg-neutral-700 text-white rounded-tl-none">
-      <div className="flex gap-1">
-        <div className="w-2 h-2 rounded-full bg-white animate-bounce"></div>        
-        <div
-          className="w-2 h-2 rounded-full bg-white animate-bounce"
-          style={{ animationDelay: "0.2s" }}
-        ></div>
-        <div
-          className="w-2 h-2 rounded-full bg-white animate-bounce"
-          style={{ animationDelay: "0.4s" }}
-        ></div>
+    <div className="text-left mb-4">
+      <div className="inline-block p-3 rounded-lg bg-neutral-700 text-white rounded-tl-none">
+        <div className="flex gap-1">
+          <div className="w-2 h-2 rounded-full bg-white animate-bounce"></div>
+          <div
+            className="w-2 h-2 rounded-full bg-white animate-bounce"
+            style={{ animationDelay: "0.2s" }}
+          ></div>
+          <div
+            className="w-2 h-2 rounded-full bg-white animate-bounce"
+            style={{ animationDelay: "0.4s" }}
+          ></div>
+        </div>
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
 export default function VirtualAdvisor() {
   const [inputValue, setInputValue] = useState("");
@@ -182,9 +182,7 @@ export default function VirtualAdvisor() {
               </div>
             </div>
           ))}
-          {isLoading && (
-            <DinoLoader />
-          )}
+          {isLoading && <DinoLoader />}
         </div>
         <form onSubmit={handleSubmit} className="relative w-full">
           <input

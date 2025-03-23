@@ -1,0 +1,23 @@
+[project]
+name = "hackbeta25"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "openai (>=1.68.2,<2.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "flask (>=3.1.0,<4.0.0)",
+    "flask-cors (>=5.0.1,<6.0.0)",
+    "flask-sqlalchemy (>=3.1.1,<4.0.0)",
+    "pymysql (>=1.1.1,<2.0.0)",
+    "cryptography (>=44.0.2,<45.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

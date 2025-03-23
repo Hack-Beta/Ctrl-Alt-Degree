@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Writ 100",
+    "credits": "3",
+    "description": "Prepares students to write in college by focusing on writing as process for a variety of contexts and audiences. Develops information literacy, awareness of conventions, skills of inquiry, exploration, and argumentation. Includes frequent conferencing with instructors and multimodal writing presented in ePortfolios.",
+    "prerequisites": []
+  },
+  {
+    "name": "Writ 101",
+    "credits": "3",
+    "description": "Prepares students to write in college by focusing on writing as process for a variety of contexts and audiences. Develops information literacy, awareness of conventions, skills of inquiry, exploration, and argumentation. Includes mulitmodal writing presented in ePortfolios.",
+    "prerequisites": []
+  },
+  {
+    "name": "Writ 102",
+    "credits": "3",
+    "description": "Writing processes, skills on inquiry, exploration, and argumentation, with special emphasis on research, information literacy, and writing for a variety of contexts and audiences. Includes multimodal writing presented in ePortfolios.",
+    "prerequisites": ["Engl 101", "Hon 101", "Writ 100", "Writ 101"]
+  },
+  {
+    "name": "Liba 102",
+    "credits": "3",
+    "description": "This course is a seminar restricted to first-year students. Topics will vary among sections. Emphasis is placed on the development of students’ writing, oral communication, and critical-thinking skills. Students may receive credit for both Liba 102 and Writ 102.",
+    "prerequisites": ["Engl 101", "Hon 101", "Writ 100", "Writ 101"]
+  },
+  {
+    "name": "Hon 101",
+    "credits": "3",
+    "description": "Honors core course. Equivalent to first-year writing I. Required of honors graduates.",
+    "prerequisites": []
+  },
+  {
+    "name": "Hon 102",
+    "credits": "3",
+    "description": "Honors core course. Equivalent to first-year writing II. Required of honors graduates.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engl 221",
+    "credits": "3",
+    "description": "Survey of World Literature to 1650.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engl 222",
+    "credits": "3",
+    "description": "Survey of World Literature since 1650.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engl 223",
+    "credits": "3",
+    "description": "Survey of American Literature to the Civil War.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engl 224",
+    "credits": "3",
+    "description": "Survey of American Literature since the Civil War.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engl 225",
+    "credits": "3",
+    "description": "Survey of British Literature to the 18th Century.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engl 226",
+    "credits": "3",
+    "description": "Survey of British Literature since the Romantic Period.",
+    "prerequisites": []
+  },
+  {
+    "name": "Math 261",
+    "credits": "3",
+    "description": "Limits, continuity, and differentiation of functions of one real variable. Includes optimization and antiderivatives.",
+    "prerequisites": []
+  },
+  {
+    "name": "Math 262",
+    "credits": "3",
+    "description": "Definite and indefinite integrals, volumes, arc length, and improper integrals.",
+    "prerequisites": ["Math 261"]
+  },
+  {
+    "name": "Math 263",
+    "credits": "3",
+    "description": "Sequences and series, parametric/polar curves, vectors, and vector-valued functions.",
+    "prerequisites": ["Math 262"]
+  },
+  {
+    "name": "Math 267",
+    "credits": "3",
+    "description": "This course covers differential and integral calculus with an emphasis on business applications. The course meets twice weekly, with other work completed online.",
+    "prerequisites": ["Math 262"]
+  },
+  {
+    "name": "Math 301",
+    "credits": "3",
+    "description": "Counting principles, mathematical induction, relations and functions, and graph theory.",
+    "prerequisites": []
+  },
+  {
+    "name": "Math 302",
+    "credits": "3",
+    "description": "Elementary group theory with applications to modular arithmetic, public key encryption, Polya enumeration, and coding theory.",
+    "prerequisites": ["Math 301"]
+  },
+  {
+    "name": "Math 375",
+    "credits": "3",
+    "description": "Basic concepts and methods of statistics, including descriptive statistics, probability, distributions, sampling, confidence intervals, hypothesis testing, and linear regression.",
+    "prerequisites": ["Math 261"]
+  },
+  {
+    "name": "Math 401",
+    "credits": "3",
+    "description": "Explores counting methods, Ramsey theory, combinatorial designs, graph theory, matroid theory, and other advanced combinatorics topics.",
+    "prerequisites": ["Math 301"]
+  },
+  {
+    "name": "Math 319",
+    "credits": "3",
+    "description": "Linear algebra covering vectors, matrices, determinants, linear transformations, and vector spaces.",
+    "prerequisites": ["Math 262"]
+  },
+  {
+    "name": "Phys 211",
+    "credits": "3",
+    "description": "This course is the first part of a two-semester calculus-based treatment of introductory physics. Topics include Newtonian mechanics, energy, rotational motion, fluids, oscillations and waves. Of the courses Phys 107, Phys 211, and Phys 213, only one can be counted toward a degree.",
+    "prerequisites": []
+  },
+  {
+    "name": "Phys 212",
+    "credits": "3",
+    "description": "This course is the second part of a two-semester calculus-based treatment of introductory physics. Topics include electricity, magnetism, electromagnetic waves and optics. Of the courses Phys 108, Phys 212, and Phys 214, only one can be counted toward a degree.",
+    "prerequisites": ["Phys 211"]
+  },
+  {
+    "name": "Phys 221",
+    "credits": "1",
+    "description": "Laboratory experiments coordinated with lecture topics in Phys 211.",
+    "prerequisites": []
+  },
+  {
+    "name": "Phys 222",
+    "credits": "1",
+    "description": "Laboratory experiments coordinated with lecture topics in Phys 212.",
+    "prerequisites": []
+  },
+  {
+    "name": "Chem 105",
+    "credits": "3",
+    "description": "This course covers atomic and molecular structure, stoichiometry, solutions, physical properties of gases, liquids, and solids, chemical bonding, kinetics, thermodynamics and equilibrium, acid-base chemistry and the descriptive chemistry of the elements.",
+    "prerequisites": []
+  },
+  {
+    "name": "Chem 106",
+    "credits": "3",
+    "description": "Continuation of Chem 105.",
+    "prerequisites": ["Chem 105"]
+  },
+  {
+    "name": "Chem 115",
+    "credits": "1",
+    "description": "General Chemistry Laboratory I.",
+    "prerequisites": []
+  },
+  {
+    "name": "Chem 116",
+    "credits": "1",
+    "description": "General Chemistry Laboratory II.",
+    "prerequisites": []
+  },
+  {
+    "name": "Chem 221",
+    "credits": "3",
+    "description": "Upper-level Chemistry course option.",
+    "prerequisites": []
+  },
+  {
+    "name": "Chem 222",
+    "credits": "3",
+    "description": "Upper-level Chemistry lab option.",
+    "prerequisites": []
+  },
+  {
+    "name": "Bisc 160",
+    "credits": "3",
+    "description": "Biology I: cells, genetics, and evolution. For majors and pre-professional students.",
+    "prerequisites": []
+  },
+  {
+    "name": "Bisc 161",
+    "credits": "1",
+    "description": "Lab for Biology I.",
+    "prerequisites": []
+  },
+  {
+    "name": "Bisc 162",
+    "credits": "3",
+    "description": "Biology II: development, anatomy, ecology, biodiversity.",
+    "prerequisites": []
+  },
+  {
+    "name": "Bisc 163",
+    "credits": "1",
+    "description": "Lab for Biology II.",
+    "prerequisites": []
+  },
+  {
+    "name": "Upper-Level Biology Placeholder",
+    "credits": "3",
+    "description": "Placeholder for 300-level or above biology elective.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geol 101",
+    "credits": "3",
+    "description": "Geology course option 1.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geol 102",
+    "credits": "3",
+    "description": "Geology course option 2.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geol 103",
+    "credits": "3",
+    "description": "Geology course option 3.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geol 104",
+    "credits": "3",
+    "description": "Geology course option 4.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geol 105",
+    "credits": "3",
+    "description": "Geology course option 5.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geol 107",
+    "credits": "3",
+    "description": "Geology course option 6.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geol 120",
+    "credits": "3",
+    "description": "Geology course option 7.",
+    "prerequisites": []
+  },
+  {
+    "name": "Upper-Level Geology Placeholder",
+    "credits": "3",
+    "description": "Placeholder for 300-level or above geology elective.",
+    "prerequisites": []
+  },
+  {
+    "name": "Astr 103",
+    "credits": "3",
+    "description": "Astronomy course option.",
+    "prerequisites": []
+  },
+  {
+    "name": "Astr 104",
+    "credits": "3",
+    "description": "Astronomy laboratory or lecture option.",
+    "prerequisites": []
+  },
+  {
+    "name": "Spch 102",
+    "credits": "3",
+    "description": "Fundamentals of organizing, preparing, and delivering speeches in a variety of public forums.",
+    "prerequisites": []
+  },
+  {
+    "name": "Spch 105",
+    "credits": "3",
+    "description": "Students in this course prepare the speech outline and give frequent performances in business situations requiring effective communicative practices.",
+    "prerequisites": []
+  },
+  {
+    "name": "Social Science Option A",
+    "credits": "3",
+    "description": "Example social science course option (e.g., anthropology, economics, political science, psychology, or sociology).",
+    "prerequisites": []
+  },
+  {
+    "name": "Social Science Option B",
+    "credits": "3",
+    "description": "Another social science course option from the approved categories.",
+    "prerequisites": []
+  },
+  {
+    "name": "Humanities Option A",
+    "credits": "3",
+    "description": "Example humanities course option. May include courses from classics, English, history, modern languages, philosophy, religion, African American studies, gender studies, or southern studies.",
+    "prerequisites": []
+  },
+  {
+    "name": "Fine Arts Option A",
+    "credits": "3",
+    "description": "Example fine arts course (non-performance). Acceptable courses include art, dance, music, and theatre arts history, appreciation, and criticism.",
+    "prerequisites": []
+  },
+  {
+    "name": "Csci 111",
+    "credits": "3",
+    "description": "Introductory Computer Science.",
+    "prerequisites": []
+  },
+  {
+    "name": "Csci 112",
+    "credits": "3",
+    "description": "Fundamental CS Concepts.",
+    "prerequisites": ["Csci 111"]
+  },
+  {
+    "name": "Csci 211",
+    "credits": "3",
+    "description": "Intermediate Computer Science Topics.",
+    "prerequisites": ["Csci 112"]
+  },
+  {
+    "name": "Csci 223",
+    "credits": "3",
+    "description": "Advanced CS Topics.",
+    "prerequisites": ["Csci 211"]
+  },
+  {
+    "name": "Csci 300",
+    "credits": "3",
+    "description": "Core Foundations in CS.",
+    "prerequisites": ["Csci 223"]
+  },
+  {
+    "name": "Csci 311",
+    "credits": "3",
+    "description": "Applied Computer Science.",
+    "prerequisites": ["Csci 300"]
+  },
+  {
+    "name": "Csci 387",
+    "credits": "3",
+    "description": "Capstone Preparation and Team Project.",
+    "prerequisites": ["Csci 311"]
+  },
+  {
+    "name": "Csci 423",
+    "credits": "3",
+    "description": "Special Topics in CS.",
+    "prerequisites": ["Csci 211", "Csci 223"]
+  },
+  {
+    "name": "Csci 433",
+    "credits": "3",
+    "description": "Elective option in CS.",
+    "prerequisites": ["Csci 211"]
+  },
+  {
+    "name": "Csci 450",
+    "credits": "3",
+    "description": "Preparation for Capstone Project.",
+    "prerequisites": ["Csci 300"]
+  },
+  {
+    "name": "Csci 487",
+    "credits": "3",
+    "description": "Capstone Project Course.",
+    "prerequisites": ["Csci 450"]
+  },
+  {
+    "name": "Csci 325",
+    "credits": "3",
+    "description": "Foundations of Computer Security.",
+    "prerequisites": ["Csci 211", "Csci 223"]
+  },
+  {
+    "name": "Csci 361",
+    "credits": "3",
+    "description": "Introduction to Computer Networks.",
+    "prerequisites": ["Csci 300"]
+  },
+  {
+    "name": "Csci 426",
+    "credits": "3",
+    "description": "System Security.",
+    "prerequisites": ["Csci 300"]
+  },
+  {
+    "name": "Csci 427",
+    "credits": "3",
+    "description": "Network Security.",
+    "prerequisites": ["Csci 300"]
+  },
+  {
+    "name": "Csci 343",
+    "credits": "3",
+    "description": "Fundamentals of Data Science.",
+    "prerequisites": []
+  },
+  {
+    "name": "Csci 443",
+    "credits": "3",
+    "description": "Advanced Data Science.",
+    "prerequisites": ["Csci 300"]
+  },
+  {
+    "name": "Csci 475",
+    "credits": "3",
+    "description": "Introduction to Database Systems.",
+    "prerequisites": ["Csci 300"]
+  },
+  {
+    "name": "ElE 235",
+    "credits": "3",
+    "description": "Introduction to electrical engineering concepts and lab work.",
+    "prerequisites": []
+  },
+  {
+    "name": "ElE 236",
+    "credits": "1",
+    "description": "Continuation of electrical engineering principles and hands-on experimentation.",
+    "prerequisites": []
+  },
+  {
+    "name": "Econ 101",
+    "credits": "3",
+    "description": "Primer for students who wish to have basic economic literacy, understand different economic concepts and policies and develop critical thinking skills.",
+    "prerequisites": []
+  },
+  {
+    "name": "Econ 202",
+    "credits": "3",
+    "description": "The nature of economics, economic concepts, and institutions; the role of the price system in directing the production of goods and services; distribution of income; and comparative economic systems.",
+    "prerequisites": ["DS 099"]
+  },
+  {
+    "name": "Econ 203",
+    "credits": "3",
+    "description": "Resources and goals of the economy; national income; unemployment; money and banking; fiscal and monetary policy; contemporary problems; economic growth; and international economics.",
+    "prerequisites": ["Econ 202", "DS 097"]
+  },
+  {
+    "name": "Econ 230",
+    "credits": "3",
+    "description": "Statistical decision making, parameters, probability, sampling, inference, tests, comparative experiments, linear correlation, and time series analysis.",
+    "prerequisites": ["Math 261 | Math 267 | Math 271", "DS 097"]
+  },
+  {
+    "name": "Phil 102",
+    "credits": "3",
+    "description": "Students will examine the moral dilemmas professionals face as a consequence of their special training, skills, and work-related duties.",
+    "prerequisites": []
+  },
+  {
+    "name": "Phil 103",
+    "credits": "3",
+    "description": "Principles and methods of sound reasoning, emphasizing analysis of everyday arguments.",
+    "prerequisites": ["DS 097"]
+  },
+  {
+    "name": "Phil 104",
+    "credits": "3",
+    "description": "This course introduces students to major ethical questions in politics and society, examining fundamental arguments on issues such as health care, advertising, pornography, abortion, animal testing, and immigration.",
+    "prerequisites": []
+  },
+  {
+    "name": "Phil 105",
+    "credits": "3",
+    "description": "This course introduces students to classic philosophical debates through popular fantasy role-playing games.",
+    "prerequisites": []
+  },
+  {
+    "name": "Thea 201",
+    "credits": "3",
+    "description": "Appreciation of the theatre as a performance art; developing perceptive audience standards through demonstrations of the unique characteristics of theatre.",
+    "prerequisites": []
+  },
+  {
+    "name": "Thea 202",
+    "credits": "3",
+    "description": "This course introduces students to major methods of film analysis and important moments in cinema history, while offering a behind-the-scenes look at how films are made.",
+    "prerequisites": []
+  },
+  {
+    "name": "Span 101",
+    "credits": "3",
+    "description": "Elementary Spanish I",
+    "prerequisites": []
+  },
+  {
+    "name": "Span 102",
+    "credits": "3",
+    "description": "Elementary Spanish II",
+    "prerequisites": ["Span 101"]
+  },
+  {
+    "name": "Span 111",
+    "credits": "6",
+    "description": "Intensive Elementary Spanish",
+    "prerequisites": []
+  },
+  {
+    "name": "Span 121",
+    "credits": "3",
+    "description": "Accelerated Elementary Spanish",
+    "prerequisites": []
+  },
+  {
+    "name": "Fr 101",
+    "credits": "3",
+    "description": "Elementary French I",
+    "prerequisites": []
+  },
+  {
+    "name": "Fr 102",
+    "credits": "3",
+    "description": "Elementary French II",
+    "prerequisites": ["Fr 101"]
+  },
+  {
+    "name": "Fr 111",
+    "credits": "6",
+    "description": "Intensive Elementary French",
+    "prerequisites": []
+  },
+  {
+    "name": "Fr 121",
+    "credits": "3",
+    "description": "Accelerated Elementary French",
+    "prerequisites": []
+  },
+  {
+    "name": "Lat 101",
+    "credits": "3",
+    "description": "Elementary Latin I",
+    "prerequisites": []
+  },
+  {
+    "name": "Lat 102",
+    "credits": "3",
+    "description": "Elementary Latin II",
+    "prerequisites": ["Lat 101"]
+  },
+  {
+    "name": "Lat 111",
+    "credits": "3",
+    "description": "Intensive Elementary Latin",
+    "prerequisites": []
+  },
+  {
+    "name": "Psy 201",
+    "credits": "3",
+    "description": "Introduction to Psychology. Covers biological, cognitive, emotional, and social aspects of behavior.",
+    "prerequisites": []
+  },
+  {
+    "name": "AAS 201",
+    "credits": "3",
+    "description": "Introduction to African American Studies.",
+    "prerequisites": []
+  },
+  {
+    "name": "Gen 101",
+    "credits": "3",
+    "description": "Orientation to the university and introduction to academic skills and campus resources.",
+    "prerequisites": []
+  },
+  {
+    "name": "Math 264",
+    "credits": "3",
+    "description": "Calculus IV or equivalent depending on institution. Typically covers multivariable calculus or differential equations.",
+    "prerequisites": ["Math 263"]
+  },
+  {
+    "name": "Math 305",
+    "credits": "3",
+    "description": "Foundations of Mathematics — logic, proofs, and set theory.",
+    "prerequisites": ["Math 263"]
+  },
+  {
+    "name": "Math 353",
+    "credits": "3",
+    "description": "Numerical Methods — algorithms and approximations for solving mathematical problems.",
+    "prerequisites": ["Math 305"]
+  },
+  {
+    "name": "Math 390",
+    "credits": "3",
+    "description": "Mathematical Modeling — real-world applications and solutions.",
+    "prerequisites": ["Math 305"]
+  },
+  {
+    "name": "Mus 102",
+    "credits": "3",
+    "description": "Fundamental concepts and principles of harmonic, melodic, and rhythmic structures, including their notation and interpretation. No previous instruction in music required",
+    "prerequisites": []
+  },
+  {
+    "name": "Hist 121",
+    "credits": "3",
+    "description": " Intro to European History since 1648",
+    "prerequisites": []
+  }
+]

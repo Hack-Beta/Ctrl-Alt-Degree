@@ -1,0 +1,14 @@
+Backend
+    Lots
+
+Frontend
+    Framer Motion - Entrance/Exit Animations
+
+    Print out the transcript (virtual advisor)
+    Show current school schedule
+    Do class lists with homework input, 
+    B.A. vs B.S.C.S
+
+
+TODO
+    Fix things
